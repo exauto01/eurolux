@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+
+<head>
+<title>AUTO SERVIS EURO LUX</title>
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+ <link rel="stylesheet" type="text/css" href="verzion.css">
+ </head>
+ <body>
+ 	<div id="maindiv">
+	<div id="navdiv">
+		<div id="logo"><h1>AUTO SERVIS EURO LUXS</h1></div>
+		<ul>
+			<li><a href="main.html">POCETNA</a></li>
+			<li><a href="onama.html">O NAMA</a></li>
+			<li><a href="katalog.html">MALI KATALOG</a></li>
+			<li><a href="kontakt.html">KONTAKT</a></li><br>
+			</ul>
+			<div id="slider">
+		<div id="box">
+			<img src="a.jpg">
+
+		</div>
+		<!-- buttons for controls slider -->
+		<button class="prew fa fa-chevron-left" onclick="prewImage()" ></button>
+		<button class="next fa fa-chevron-right" onclick="nextImage()"></button>
+	</div>
+</div>
+</div>
+		</div>
+	</div>
+
+	
+
+
+		</div>
+	</div>
+		
+		<script type="text/javascript">
+
+  	var slider_content = document.getElementById('box');
+
+  	// contain images in an array
+    var image = ['a','b', 'c', 'd','e'];
+
+    var i = image.length;
+
+
+    // function for next slide 
+
+    function nextImage(){
+    	if (i<image.length) {
+    		i= i+1;
+    	}else{
+    		i = 1;
+    	}
+    	  slider_content.innerHTML = "<img src="+image[i-1]+".jpg>";
+    }
+
+
+    // function for prew slide
+
+    function prewImage(){
+
+    	if (i<image.length+1 && i>1) {
+    		i= i-1;
+    	}else{
+    		i = image.length;
+    	}
+    	  slider_content.innerHTML = "<img src="+image[i-1]+".jpg>";
+
+    }
+
+  
+  // script for auto image slider
+
+  setInterval(nextImage , 4000);
+
+  </script>
+
+
+
+	</body>
+
+
+
+
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+	
+
+</html>
+

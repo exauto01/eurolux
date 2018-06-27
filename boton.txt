@@ -1,0 +1,3 @@
+<form>
+<input class="MyButton" onclick="window.location.href='http'" type="button" value="Text" />
+</form>

@@ -1,0 +1,67 @@
+body{
+	font-family: arial, sans-serif;
+	background: gray;
+	
+	background-size: cover;
+	margin-left: 7%;
+	margin-right: 7%;
+	margin-top: 1%
+}
+*{
+	padding:0px;
+	margin: 0px;
+}
+#maindiv{
+	width: 100%;
+	height: 700px;
+	
+
+}
+#navdiv ul{
+	width: 100%;
+	height: 80px;
+	background: #648DA0;
+	line-height: 80px;
+	color: white;
+	margin-right: 15px;
+	border-radius: 12px;
+}
+#navdiv ul a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+
+}
+#navdiv ul li {
+	list-style-type: none;
+	display: inline block;
+	float: right;
+}
+#navdiv ul li:hover{
+	background: #8FB0BF;
+	transition: all 0.40s;
+	border-radius: 25%;
+}
+#navdiv h1{
+	width: 300px;
+	float: left;
+	cursor: pointer;
+	margin-left: 15;
+}
+.oilb{
+	background-size: 470px;
+}
+.oilp{
+	font-size: 32px;
+}
+.pict{
+	width: 440px;
+	height: 400px;
+}
+.pictb{
+	width: 400px;
+	height: 340px;
+}
+.guma{
+	font-size: 32px;
+}

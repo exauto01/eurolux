@@ -1,0 +1,115 @@
+body {
+	background: #645757;
+}
+
+.logo {
+	text-indent: -9999999px;
+	background: url('logo1.jpg');
+	background-size: cover;
+	height: 217px;
+	width: 433px;
+	float: left;
+	padding: 0px;
+	margin-top: 3px;
+}
+
+body {
+	background-color: #EEE3E0;
+	font-family: arial;
+	color: white;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+
+}
+ul li {
+	float: left;
+	width: 200px;
+	height: 40px;
+	background-color: black;
+	opacity: .8;
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px
+	margin-left: 2px;
+	
+}
+ul li a {
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+ul li a:hover {
+	background-color: green;
+}
+ul li ul li {
+	display: none;
+}
+ul li:hover ul li {
+	display: block;
+}
+
+@keyframes slider {
+
+0%{
+	left: 0;
+}	
+
+20%{
+	left: 0;
+}
+
+25%{
+	left: -100%;
+}
+
+45%{
+	left: -100%
+}
+
+50%{
+	left: -200%
+}
+
+70%{
+	left: -200%
+}
+
+75%{
+	left: -300%
+}
+
+95%{
+	left: -300%
+}
+
+100%{
+	left: -400%
+}
+}
+
+#slider {
+	overflow: hidden;
+}
+
+#slider figure img {
+	width: 20%;
+	float: left;
+
+}
+
+#slider figure {
+	position: relative;
+	width: 500%
+	margin: 0;
+	left: 0;
+	text-align: left;
+	font-size: 0;
+	animation: 20s slider infinite;
+	margin-top: 360px;
+	margin-right: -50px;
+	margin-right: -50px;
+}
